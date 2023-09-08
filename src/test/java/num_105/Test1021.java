@@ -32,7 +32,7 @@ public class Test1021 {
 
         TreeNode root = new TreeNode(preorder[rootIndex]);
 
-        int index = -1;
+        int index = 0;
         for (int i = left; i <= right; i++) {
             if (inorder[i] == root.val) {
                 index = i;
